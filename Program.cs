@@ -1,8 +1,12 @@
-﻿string [] array={"Controlnoe Zadanie"};
+﻿string [] array={"ZADA", "NIE", "1234"};
 
-// void PRINTARRAY (string[] arr)
-// { 
-// string[] array1;
-// array1[array1.Length]=
-// array1[Length]=random.Next(1,3);
-// }
+int PRINTARRAY (string[] arr)    //определение длины нового массива
+{ int k=0;
+  for(int i=0;i<array.Length;i++)
+  {  if (array[i].Length<=3) k++;
+    
+  }
+  return k;
+}
+
+PRINTARRAY(array);
